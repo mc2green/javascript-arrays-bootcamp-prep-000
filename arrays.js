@@ -11,3 +11,5 @@ var candyString = "foo"
 function accessElementInArray (array, index){
   return array[index]
 }
+
+function 

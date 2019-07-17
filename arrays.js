@@ -8,6 +8,6 @@ var candyString = "foo"
  function destructivelyAddElementToEndOfArray(chcolateBars, candyString){
    return chocolateBars.upshift(candyString)
  }
-function accessElementInArray (){
-  
+function accessElementInArray (array, index){
+  return array[index]
 }

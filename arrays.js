@@ -8,10 +8,11 @@ var candyString = "foo"
  function destructivelyAddElementToEndOfArray(chcolateBars, candyString){
    return chocolateBars.upshift(candyString)
  }
-function accessElementInArray (array, index){
-  return array[index]
+function accessElementInArray (chocolateBars, index){
+  return chocolateBars[index]
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(array){
-  return array.shift()
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
+  return chocolateBars.shift()
 }
+function 

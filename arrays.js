@@ -5,4 +5,6 @@ var candyString = "foo"
    return [candyStriing, ...chocolateBars]
  }
  
- function 
+ function destructivelyAddElementToEndOfArray(chcolateBars, candyString){
+   return chocolateBars.upshift(candyString)
+ }
